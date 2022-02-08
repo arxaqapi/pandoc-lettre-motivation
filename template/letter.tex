@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+  \geometry{vmargin={3cm, 2.5cm}}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\setlength\parskip{10pt}
+\setlength\parindent{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+$if(from)$
+	\textbf{$author$}\\
+	$for(from)$
+		$from$\\
+	$endfor$
+$endif$
+
+$if(to)$
+\begin{flushright}
+	$for(to)$
+		$to$\\
+	$endfor$
+\end{flushright}
+$endif$
+
+$if(datation)$
+		$datation$\\
+	$endif$
+$if(objet)$
+  \par\bigskip\textbf{Objet: $objet$}
+$endif$
+
+$body$
+
+\bigskip
+\begin{flushright}
+	$author$
+\end{flushright}
+
+$if(signature-file)$
+\begin{figure}[h]
+  \raggedleft
+  \includegraphics[scale=$signature-scale$]{$signature-file$}
+\end{figure}
+$endif$
+
+\end{document}
