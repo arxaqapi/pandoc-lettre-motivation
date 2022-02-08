@@ -1,13 +1,13 @@
 # pandoc-lettre-motivation
 
-Ceci est une template permettant de produire facilement des lettres de motivation profesionneles en français.
+Ceci est un template permettant de produire facilement des lettres de motivation professionnels en français.
 
 ## Pré-requis
 
-Il faut avoir [pandoc](https://pandoc.org/) d'installer sur la machine.
+Il faut avoir [pandoc](https://pandoc.org/) d'installé sur sa machine.
 
 ## Utilisation
-Il suffit de remplacer les données du header de son fichier markdown avec les informations personnelles et du destinataire. Ensuite, on écrite sa lettre à la suite.
+Il suffit de remplacer les données du header de son fichier markdown avec les informations personnelles et du destinataire. Ensuite, on écrit sa lettre à la suite.
 
 ```markdown
 ---
@@ -27,7 +27,7 @@ signature-scale: 0.2
 ---
 ```
 
-Vérifier que les fichiers cibles et que les chemins d'accès soit correct avant de lancer la commande suivante:
+Vérifier à ce que les fichiers cibles et les chemins d'accès soient corrects avant de lancer la commande suivante:
 ```bash
 pandoc -d settings.yaml
 ```
