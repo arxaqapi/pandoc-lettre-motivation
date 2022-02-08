@@ -5,7 +5,7 @@ objet: "Candidature au poste d'officier de santé"
 from:
  - 13 rue des Flandes
  - 25270 Arc-sous-Mentenot
- - \texttt{contact@mail.com}
+ - \href{mailto:contact@mail.com}{\texttt{contact@mail.com}}
 to: 
  - \textbf{UNICEF}
  - 3 United Nations Plaza
