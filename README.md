@@ -4,7 +4,7 @@ Ceci est une template permettant de produire facilement des lettres de motivatio
 
 ## Pré-requis
 
-Il faut avoir pandoc d'installer sur la machine.
+Il faut avoir [pandoc](https://pandoc.org/) d'installer sur la machine.
 
 ## Utilisation
 Il suffit de remplacer les données du header de son fichier markdown avec les informations personnelles et du destinataire. Ensuite, on écrite sa lettre à la suite.
@@ -31,4 +31,6 @@ Vérifier que les fichiers cibles et que les chemins d'accès soit correct avant
 ```bash
 pandoc -d settings.yaml
 ```
+## Exemple
 
+[Voir le pdf d'exemple, pour une idée du rendu.](candidature-exemple.pdf)
